@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Homework 7.2.1</string>
+
+    <string name="proceed_to_maps">Proceed to Maps</string>
+    <string name="coords_cannot_be_interpreted">Your input can\'t be interpreted as coordinates</string>
+    <string name="region_correspondence">%s corresponds to %s</string>
+
+    <string-array name="region_names">
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>New Zealand</item>
+        <item>North America</item>
+        <item>South America</item>
+        <item>Antarctica</item>
+        <item>Arctic Ocean</item>
+        <item>Pacific Ocean</item>
+        <item>Atlantic Ocean</item>
+        <item>Indian Ocean</item>
+    </string-array>
+</resources>
