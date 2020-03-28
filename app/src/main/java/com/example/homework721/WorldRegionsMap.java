@@ -167,9 +167,11 @@ public final class WorldRegionsMap {
 				outBuffer.write(buffer, 0, read);
 
 			byte[] readData = outBuffer.toByteArray();
-			for (int y = 0, i = 0; y < 180; y++)
-				for (int x = 0; x < 360; x++)
+			for (int y = 0, i = 0; y < 180; y++) {
+				for (int x = 0; x < 360; x++) {
 					map[x][y] = readData[i++];
+				}
+			}
 
 		} catch (IOException e) {
 			Log.w("MainActivity",
